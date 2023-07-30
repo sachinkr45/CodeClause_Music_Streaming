@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Streaming</h1>
+    </header>
+
+    <main>
+        <div id="music-details"> <h2>Now Playing: Song Title</h2>
+            <p>Artist Name</p></div>
+        <!-- Music player container -->
+        <div id="music-player">
+            <audio id="audio-player" controls>
+                <source src="music 1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+           
+        </div>
+        <div id="music-details">
+            <h2>Next Song</h2>
+
+        </div>
+    </div>
+
+        <!-- Playlist -->
+        <ul id="playlist">
+            
+            <li data-src="music 1.mp3" data-title="Song 1" data-artist="Artist 1">Song 1 - Artist 1</li>
+            <li data-src="music 2.mp3" data-title="Song 2" data-artist="Artist 2">Song 2 - Artist 2</li>
+            <li data-src="music 3.mp3" data-title="Song 3" data-artist="Artist 3">Song 3 - Artist 3</li>
+            <li data-src="music 4.mp3" data-title="Song 4" data-artist="Artist 4">Song 4 - Artist 4</li>
+            <li data-src="music 5.mp3" data-title="Song 5" data-artist="Artist 5">Song 5 - Artist 5</li>
+            <!-- Add more songs here -->
+        </ul>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
